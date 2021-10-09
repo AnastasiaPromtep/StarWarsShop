@@ -1,5 +1,28 @@
 <div>
-    <div *ngFor="let weapon of weaponList">
-        <span>{{weapon.name}}</span>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Damage</th>
+                <th>Critical</th>
+                <th>Encumbrance</th>
+                <th>Hard Points</th>
+                <th>Price</th>
+                <th>Rarity</th>
+                <th>Special</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let weapon of weaponList">
+            <tr>
+                <td>{{weapon.name}}</td>
+                <td>{{weapon.damage}}</td>
+                <td>{{weapon.critical}}</td>
+                <td>{{weapon.encumbrance}}</td>
+                <td>{{weapon.hardPoints}}</td>
+                <td>{{weapon.price}}</td>
+                <td>{{weapon.rarity}}</td>
+                <td>{{weapon.specialRules}}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>

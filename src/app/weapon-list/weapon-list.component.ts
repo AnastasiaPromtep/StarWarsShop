@@ -12,14 +12,40 @@ export class WeaponListComponent implements OnInit {
     {
       name: 'Holdout Blaster',
       shortName: 'Holdout Blaster',
-      damage: 4,
-      critical: 5,
+      damage: 5,
+      critical: 4,
       encumbrance: 1,
       hardPoints: 1,
       price: 200,
       rarity: 4,
       specialRules: [
           'Stun setting'
+      ]
+    },
+    {
+      name: 'Light Blaster Pistol',
+      shortName: 'Light Blaster Pistol',
+      damage: 5,
+      critical: 4,
+      encumbrance: 1,
+      hardPoints: 2,
+      price: 300,
+      rarity: 4,
+      specialRules: [
+          'Stun settings'
+      ]
+    },
+    {
+      name: 'Blaster Pistol',
+      shortName: 'Blaster Pistol',
+      damage: 6,
+      critical: 3,
+      encumbrance: 1,
+      hardPoints: 3,
+      price: 400,
+      rarity: 4,
+      specialRules: [
+        'Stun settings'
       ]
     }
   ];
