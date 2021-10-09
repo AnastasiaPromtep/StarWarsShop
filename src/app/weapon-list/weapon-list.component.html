@@ -2,18 +2,11 @@
     <table>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Damage</th>
-                <th>Critical</th>
-                <th>Encumbrance</th>
-                <th>Hard Points</th>
-                <th>Price</th>
-                <th>Rarity</th>
-                <th>Special</th>
+                <th *ngFor="let property of weaponProperties">{{property}}</th>
             </tr>
         </thead>
-        <tbody *ngFor="let weapon of weaponList">
-            <tr>
+        <tbody>
+            <tr *ngFor="let weapon of weaponList">
                 <td>{{weapon.name}}</td>
                 <td>{{weapon.damage}}</td>
                 <td>{{weapon.critical}}</td>

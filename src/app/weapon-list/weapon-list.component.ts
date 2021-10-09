@@ -50,6 +50,17 @@ export class WeaponListComponent implements OnInit {
     }
   ];
 
+  public weaponProperties: string[] = [
+    'Name',
+    'Damage',
+    'Critical',
+    'Encumbrance',
+    'Hard Points',
+    'Price',
+    'Rarity',
+    'Special'
+  ];
+
   constructor() {}
 
   ngOnInit(): void {
