@@ -12,6 +12,7 @@ export class WeaponListComponent implements OnInit {
     {
       name: 'Holdout Blaster',
       shortName: 'Holdout Blaster',
+      skill: 'Ranged (Light)',
       damage: 5,
       critical: 4,
       encumbrance: 1,
@@ -25,6 +26,7 @@ export class WeaponListComponent implements OnInit {
     {
       name: 'Light Blaster Pistol',
       shortName: 'Light Blaster Pistol',
+      skill: 'Ranged (Light)',
       damage: 5,
       critical: 4,
       encumbrance: 1,
@@ -38,6 +40,7 @@ export class WeaponListComponent implements OnInit {
     {
       name: 'Blaster Pistol',
       shortName: 'Blaster Pistol',
+      skill: 'Ranged (Light)',
       damage: 6,
       critical: 3,
       encumbrance: 1,
@@ -52,6 +55,7 @@ export class WeaponListComponent implements OnInit {
 
   public weaponProperties: string[] = [
     'Name',
+    'Skill',
     'Damage',
     'Critical',
     'Encumbrance',

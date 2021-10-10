@@ -3,6 +3,7 @@ export class WeaponModel {
     constructor(
         public name: string,
         public shortName: string,
+        public skill: string,
         public damage: number,
         public critical: number,
         public encumbrance: number,
